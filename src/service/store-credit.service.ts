@@ -30,7 +30,7 @@ import {
     StoreCreditUpdateInput,
 } from '../types/credits-admin-types';
 import { NPPService } from './npp.service';
-import { ClaimResult } from 'src/types/credits-shop-types';
+import { ClaimResult } from '../types/credits-shop-types';
 
 @Injectable()
 export class StoreCreditService {

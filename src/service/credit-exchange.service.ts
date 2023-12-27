@@ -14,7 +14,7 @@ import {
     SellerService,
 } from '@vendure/core';
 import { CreditExchange } from '../entity/exchange-request.entity';
-import { CreditExchangeListOptions } from 'src/types/credits-admin-types';
+import { CreditExchangeListOptions } from '../types/credits-admin-types';
 import { StoreCreditPluginOptions } from '../types/options';
 import { STORE_CREDIT_PLUGIN_OPTIONS } from '../constants';
 import { In } from 'typeorm';

@@ -11,7 +11,7 @@ import {
     EntityHydrator,
 } from '@vendure/core';
 import { STORE_CREDIT_PLUGIN_OPTIONS } from '../constants';
-import { StoreCreditPluginOptions } from 'src/types/options';
+import { StoreCreditPluginOptions } from '../types/options';
 
 let customerService: CustomerService;
 let sellerService: SellerService;
